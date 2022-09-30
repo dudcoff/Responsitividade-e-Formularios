@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles for.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form>
+        <label for="nome-usuario">Nome</label>
+        <!-- <input type="text" id="nome-usuario" name="nome-usuario" value="teste"> -->
+        <input type="text" id="nome-usuario" name="nome-usuario" placeholder="Digite aqui seu nome">
+
+        <label for="senha-usuario">Senha</label>
+        <input type="password" id="senha-usuario" name="senha-usuario">
+
+        <label for="">Idade</label>
+        <input type="number" min="10" max="55" value="18">
+
+        <div>
+            <input type="checkbox" name="li-e-concordo" id="li-e-concordo">
+            <label for="">Li e concordo</label>
+        </div>
+    <br>
+        <label for="mensagem">Mensagem</label>
+        <textarea name="" id="mensagem" rows="10">
+        texto padrão
+        </textarea>
+        <br>
+        <label for="cidade">Cidade</label>
+        <select name="cidade" id="cidade">
+            <option value="0" selected>---selecione---</option>
+            <option value="1">Mongaguá</option>
+            <option value="2">Itanhaém</option>
+            <option value="3">Praia Grande</option>
+        </select>
+        <br>
+        <input type="color" name="" id="">
+        <br>
+
+        <div>
+            <button>Enviar</button>
+            <button type="reset">Limpar</button>
+        </div>
+    </form>
+</body>
+</html>

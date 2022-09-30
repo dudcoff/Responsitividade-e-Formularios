@@ -1,0 +1,19 @@
+form{
+    background-color: cornflowerblue;
+
+}
+    form > *{
+        display: flex;
+    }
+    
+input{
+    background-color:blanchedalmond;
+}
+
+/*ou
+
+form > *{
+    display: block;
+} 
+
+*/

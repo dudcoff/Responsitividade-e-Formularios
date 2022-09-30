@@ -1,0 +1,14 @@
+.card{
+    background-color: cadetblue;
+}
+
+@media (min-width: 600px){
+    .card{
+        background-color: crimson;
+    }
+}
+@media (max-width: 600px) and (min-width: 300px) {
+    .card{
+        background-color: gold;
+    }
+}
